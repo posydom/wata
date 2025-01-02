@@ -27,7 +27,7 @@ require('../common')({
   , dirname: process.env.dirname
 })
 
-window.addEventListener('resize', fit(canvas), false) MhbAExFnpv
+window.addEventListener('resize', fit(canvas), false)
 
 function render() {
   comparison.run()
