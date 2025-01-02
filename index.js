@@ -17,7 +17,7 @@ var comparison = compare(gl
   , createLoop('expected')
 )
 
-comparison.mode = 'slide' XXVHTYamk5
+comparison.mode = 'slide'
 comparison.amount = 0.5
 
 require('../common')({
