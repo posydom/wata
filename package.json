@@ -8,7 +8,7 @@
     "pack": "rm -rf answers; rm -rf node_modules && npm install && npm dedupe && node prepack && find . -type file | grep -v workshop.tar.gz | grep -v .git | tar -cvzf ./workshop.tar.gz -T - && node postpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node start.js"
-  }, FuQuUf0a5J
+  },
   "authors": [
     "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
     "Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
