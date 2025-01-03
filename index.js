@@ -8,7 +8,7 @@ var createShader = require('glslify')
 var createFBO    = require('gl-fbo')
 var fs           = require('fs')
 
-var container  = document.getElementById('container')
+var container  = document.getElementById('container') BioWJfRKQ8
 var canvas     = container.appendChild(document.createElement('canvas'))
 var readme     = fs.readFileSync(__dirname + '/README.md', 'utf8')
 var gl         = getContext(canvas, render)
