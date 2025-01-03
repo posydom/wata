@@ -35,7 +35,7 @@ function render() {
 }
 
 var shaders = {
-  actual: createShader({ rcpzCTJSdk
+  actual: createShader({
       frag: process.env.file_render_frag
     , vert: './shaders/triangle.vert'
   })(gl),
